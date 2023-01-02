@@ -1,0 +1,98 @@
+*{
+    /*Para resetear el margen y relleno por defecto del html usamos
+    "margin" & "padding"*/
+        margin: 0px;
+        padding: 0px;
+}
+
+body{
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1100px;
+    border: 1px solid black;*/
+}
+
+#caja1, 
+#caja2{
+
+    /*Especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos, 
+    como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible).*/
+    display: block;
+
+    /*Para dar tamaño a lo "ancho*/
+        width: 250px;
+    /*Para dar tamaño a lo "largo*/
+        height: 250px;
+    /*Ancho minimo y maximo*/
+        min-width: px;
+        max-width: px;
+
+/*Bordes*/
+    border: 10px solid red;
+
+/*Introduce un margen: Arriba | Derecha | Abajo | Izquierda*/
+    margin: 15px;
+/*Introduce un margen: Arriba | Derecha | Abajo | Izquierda*/
+    margin: 10px 20px 15px 25px;
+/*Introduce un margen: Arriba*/
+    margin-top: px;
+/*Introduce un margen: Derecha*/
+    margin-right: px;
+/*Introduce un margen: Abajo*/
+    margin-bottom: px;
+/*Introduce un margen: Izquierda*/
+    margin-left: px;
+
+/*Margen interno Arriba | Derecha | Abajo | Izquierda*/
+    padding: 20px;
+/*Margen: Arriba*/
+    padding-top: px;
+/*Margen: Derecha*/
+    padding-right: px;
+/*Margen: Abajo*/
+    padding-bottom: px;
+/*Margen: Izquierda*/
+    padding-left: px;
+
+
+    background-color: lightblue;
+
+    /*Mueve un elemento a la "izq" o "der" cuyo display sea: "block" 
+    ya que inline no permite aplicar los patrones ya trazados (margin, colo, paddins, etc)*/
+    float: left;
+}
+
+section > div > p {
+    /*Especifica el peso o grueso de la letra ( "bold" = "negrita" & "lighter" = "Más ligera" )*/
+    font-weight: bold;
+    /*Alineacion del texto*/
+    text-align: center;
+    /*Tamaño del texto*/
+    font-size: 20px;
+    /*Fuente del texto*/
+    font-family: Arial;
+    /*Si queremos meter 250px, habra que restar el tamaño del texto (font-size) osea: 250px-20px = 230px*/
+    line-height: 230px;
+}
+
+section {
+    /*Especifica el peso o grueso de la letra ( "bold" = "negrita" & "lighter" = "Más ligera" )*/
+    font-weight: ;
+    /*Alineacion del texto*/
+    text-align: left;
+    /*Tamaño del texto*/
+    font-size: 20px;
+    /*Fuente del texto*/
+    font-family: Arial;
+    /*Si queremos meter 250px, habra que restar el tamaño del texto (font-size) osea: 250px-20px = 230px*/
+    line-height: ;
+}
+
+.clearfix{
+    /*Anulamos la posicion del elemento "flotante" ( "no flotante" )*/
+    float: none;
+    /*Hace que la caja sobre la que se aplica baje hasta que su borde superior esté por debajo del borde inferior de cualquier elemento flotado a la izquierda o a la derecha.*/
+    clear: both;
+}
